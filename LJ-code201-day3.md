@@ -27,5 +27,41 @@
 #### PADDING:
 - The distance between the the CONTENT and the BORDER of a box element
 
-#### CONTENT: 
+#### CONTENT:
 - The actual CONTENT of a box element
+
+## JAVASCRIPT LOOPS
+
+#### FOR LOOPS
+
+example: FOR LOOP
+- for(var index= 0; index < 10; index++)
+{
+
+  console.log(index);  
+}
+
+- what this loop will do is run over and over again adding +1 to i until it reaches 10 at which case it stops
+
+#### WHILE LOOPS
+
+While X is happening continue to run this loop
+- Example: WHILE LOOP
+- var index = 100;
+
+  while(index > 0) {
+
+    console.log('the index of the while loop is', 0);
+
+  }
+
+#### DO WHILE LOOP
+
+same as while loop but code is while loop will always run at least once, by not evaluating condition until code is run once
+- Example: DO WHILE LOOP
+- var index = 10;
+  - do {
+
+    console.log('Do-while loop fired with index:', index);
+
+  } while (index > 100);
